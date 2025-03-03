@@ -1,0 +1,18 @@
+[project]
+name = "smartspeech"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "groq>=0.18.0",
+    "pyaudio>=0.2.14",
+    "pydantic-ai>=0.0.30",
+    "pydantic-settings>=2.8.1",
+    "streamlit>=1.42.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.9",
+]
